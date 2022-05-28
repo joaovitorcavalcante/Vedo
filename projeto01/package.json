@@ -5,13 +5,19 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "test:debug": "ndb jest"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
     "@types/jest": "^27.5.1",
     "babel-jest": "^28.1.0",
-    "jest": "^28.1.0"
+    "jest": "^28.1.0",
+    "ndb": "^1.1.5"
+  },
+  "dependencies": {
+    "dinero.js": "^1.9.1",
+    "lodash": "^4.17.21"
   }
 }
